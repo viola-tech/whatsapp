@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey</title>
+    <link rel="stylesheet" href="survey.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+      <form action="/new.php">
+            <h2>PLEASE FILL THIS SURVEY FORM TO HELP IMPROVE OUR SERVICES</h2>
+            <P style="padding: 20px 0 7px 0;"> 1. Which of the following best describes you? "Iam ______"</P>
+            <input type="radio" id=" A current customer of Asterisk Digital Marketplace" name="customer" value=" A current customer of Asterisk Digital Marketplace." >
+            <label for="A current customer of Asterisk Digital Marketplace"> A current customer of Asterisk Digital Marketplace.</label>,<br>
+
+            <input type="radio" id="Not a customer but considering becoming one" name="customer" value="Not a customer but considering becoming one">
+            <label for="Not a customer but considering becoming one" >Not a customer but considering becoming one</label><br>
+
+             <input type="radio" id="Not a customer and don't plan to become one anytime soon" name="customer" value="Not a customer and don't plan to become one anytime soon">
+            <label For="Not a customer and don't plan to become one anytime soon">Not a customer and don't plan to become one anytime soon</label><br>
+            
+            <p style="padding: 15px 0 7px 0"> 2. Did our product do what it was supposed to do?</p>
+             <input type="radio" id="Yes" name="option" value="Yes">
+             <label for="Yes">Yes</label><br>
+
+             <input type="radio" id="No" name="option" value="No">
+             <label for="No">No</label><br>
+
+            <p style="padding: 15px 0 7px 0;">3. Is there anything else you could wish us to improve? if so, what and how</p>
+            <p> <input type="text"></p>
+
+            <p style="padding: 15px 0 7px 0;">4.How easy did we make it to solve your problem?</p>
+            <p>
+              <select type="list" name="select one">
+                  <option>......</option>
+                <option value="very difficult">Very difficult</option>
+                <option value="somewhat difficult">somewhat difficult</option>
+                <option value="about as easy as i expected">About as easy as i expected</option>
+                <option value="somewhat easy">Somewhat easy</option>
+                <option value="very easy">Very easy</option>
+              </select>
+            </p>
+
+            <p style="padding: 15px 0 7px 0;">5. Do you have anything else to add? Please be 100% honest; we love feedback.</p>
+            <p> <input type="text"></p>
+
+            <P style="padding: 15px 0 7px 0;"> 6. How likely are you to recommend Asterisk Digital Marketplace to a friend or colleague on the below scale of 1-5.</P>
+            <input type="radio" id="1" name="option" value="1" >
+            <label for="1"> 1</label>,<br>
+
+            <input type="radio" id="2" name="option" value="2">
+            <label for="2" >2</label><br>
+
+            <input type="radio" id="3" name="option" value="3">
+            <label For="3">3</label><br>
+
+            <input type="radio" id="4" name="option" value="4">
+            <label For="4">4</label><br>
+
+            <input type="radio" id="5" name="option" value="5">
+            <label For="5">5</label><br>
+            
+            <p style="padding: 15px 0 7px 0;">
+             <input type="text" placeholder="first name" name="First Name" required/><br>
+            </p>
+
+            <p style="padding: 15px 0 7px 0;">
+             <input type="text" placeholder="last name" name="Last Name" required/><br>
+            </p>
+
+            <p style="padding: 15px 0 7px 0;">
+            <input type="text" placeholder="email" name="Email" required/><br>
+            </p>
+
+            <p style="padding: 15px 0 7px 0;">
+            <input type="number" placeholder=" phone number" name="Phone Number" required/><br>
+            </p>
+
+            <p style="padding: 15PX 0 7PX 0; text-align: right;">
+              <input type="submit" value="submit">
+            </p>   
+      </form>
+        
+    </div>
+
+    
+</body>
+</html>

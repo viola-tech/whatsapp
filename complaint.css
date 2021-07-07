@@ -1,0 +1,20 @@
+*{
+    margin: auto;
+    text-align: left;
+}
+body{
+    padding: 56px;
+    margin: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:rgb(124, 124, 150);
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient();
+}
+#container{
+    width: fit-content;
+    border-radius: 10px;
+    
+}
